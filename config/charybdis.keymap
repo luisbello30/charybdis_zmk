@@ -197,12 +197,12 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &trans       &kp PLUS       &kp LPAR        &trans    &kp RPAR         &kp PIPE   &kp PRCNT
-&trans  &trans  &trans  &kp AT  &kp POUND  &kp TILDE    &kp EQUAL      &kp LBRC        &kp UP    &kp RBRC         &kp BSLH   &kp AMPS
-&trans  &trans  &trans  &trans  &trans     &kp EXCL     &kp LS(UNDER)  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp MINUS  &kp DLLR
-&trans  &trans  &trans  &trans  &trans     &trans       &kp LS(DQT)    &kp LBKT        &trans    &kp RBKT         &kp SQT    &kp GRAVE
-                        &trans  &trans     &trans       &trans         &trans
-                                &trans     &trans       &trans
+&trans  &trans  &trans  &trans  &trans     &trans           &kp PLUS       &kp LPAR        &trans    &kp RPAR         &kp PIPE   &kp PRCNT
+&trans  &trans  &trans  &kp AT  &kp POUND  &kp TILDE        &kp EQUAL      &kp LBRC        &kp UP    &kp RBRC         &kp BSLH   &kp AMPS
+&trans  &trans  &trans  &trans  &trans     &kp EXCL         &kp LS(UNDER)  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp MINUS  &kp DLLR
+&trans  &trans  &trans  &trans  &trans     &kp LS(QMARK)    &kp LS(DQT)    &kp LBKT        &trans    &kp RBKT         &kp SQT    &kp GRAVE
+                        &trans  &trans     &trans           &trans         &trans
+                                &trans     &trans           &trans
             >;
         };
 
