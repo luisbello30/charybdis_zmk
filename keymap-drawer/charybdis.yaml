@@ -52,7 +52,7 @@ layers:
   - LALT
   - {t: SPACE, h: '1'}
   - L CLK
-  - ''
+  - BSPC
   - SPACE
   - {t: SPACE, h: '2'}
   - R CLK
