@@ -90,12 +90,12 @@
 
         default_win_layer {
             bindings = <
-&kp LALT          &kp N1  &kp N2  &kp N3    &kp N4       &kp N5       &kp N6     &kp N7     &kp N8        &kp N9         &kp N0    &trans
-&kp TAB           &kp Q   &kp W   &kp E     &kp R        &kp T        &kp Y      &kp U      &kp I         &kp O          &kp P     &trans
-&kp LEFT_SHIFT    &kp A   &kp S   &kp D     &kp F        &kp G        &kp H      &kp J      &kp K         &kp L          &none     &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp Z   &kp X   &kp C     &kp V        &kp B        &kp N      &kp M      &kp DE_COMMA  &kp DE_PERIOD  &kp FSLH  &kp ENTER
-                                  &kp LALT  &lt 1 SPACE  &mkp LCLK    &kp BSPC   &kp SPACE
-                                            &lt 2 SPACE  &mkp RCLK    &kp ENTER
+&kp LALT          &kp N1  &kp N2  &kp N3     &kp N4       &kp N5          &kp N6     &kp N7     &kp N8        &kp N9         &kp N0    &trans
+&kp TAB           &kp Q   &kp W   &kp E      &kp R        &kp T           &kp Y      &kp U      &kp I         &kp O          &kp P     &trans
+&kp LEFT_SHIFT    &kp A   &kp S   &kp D      &kp F        &kp G           &kp H      &kp J      &kp K         &kp L          &none     &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C      &kp V        &kp B           &kp N      &kp M      &kp DE_COMMA  &kp DE_PERIOD  &kp FSLH  &kp ENTER
+                                  &mkp LCLK  &mkp RCLK    &kp LEFT_ALT    &kp BSPC   &kp SPACE
+                                             &lt 1 SPACE  &lt 2 SPACE     &kp ENTER
             >;
 
             label = "QUERTZ";
@@ -103,12 +103,12 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &trans           &kp PLUS       &kp LPAR        &trans    &kp RPAR         &kp PIPE   &kp PRCNT
-&trans  &trans  &trans  &kp AT  &kp POUND  &kp TILDE        &kp EQUAL      &kp LBRC        &kp UP    &kp RBRC         &kp BSLH   &kp AMPS
-&trans  &trans  &trans  &trans  &trans     &kp EXCL         &kp LS(UNDER)  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp MINUS  &kp DLLR
-&trans  &trans  &trans  &trans  &trans     &kp LS(QMARK)    &kp LS(DQT)    &kp LBKT        &trans    &kp RBKT         &kp SQT    &kp GRAVE
-                        &trans  &trans     &trans           &trans         &trans
-                                &trans     &trans           &trans
+&trans  &trans  &trans          &trans          &trans           &trans           &kp PLUS       &kp LPAR        &trans    &kp RPAR         &kp PIPE   &kp PRCNT
+&trans  &trans  &trans          &kp AT          &kp POUND        &kp TILDE        &kp EQUAL      &kp LBRC        &kp UP    &kp RBRC         &kp BSLH   &kp AMPS
+&trans  &trans  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &kp EXCL         &kp LS(UNDER)  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp MINUS  &kp DLLR
+&trans  &trans  &trans          &msc SCRL_DOWN  &kp LEFT_WIN     &kp LS(QMARK)    &kp LS(DQT)    &kp LBKT        &trans    &kp RBKT         &kp SQT    &kp GRAVE
+                                &trans          &trans           &trans           &trans         &trans
+                                                &trans           &trans           &trans
             >;
         };
 
@@ -120,6 +120,17 @@
 &trans  &trans  &kp F1   &kp F2   &kp F3   &trans    &kp END    &kp N1  &kp N2  &kp N3  &kp DOT    &trans
                          &trans   &trans   &trans    &kp SPACE  &kp N0
                                   &trans   &trans    &trans
+            >;
+        };
+
+        scroll {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans
+                                &trans  &trans    &trans
             >;
         };
 
@@ -155,9 +166,9 @@
 &kp ESCAPE      &kp N1       &kp N2  &kp N3     &kp N4     &kp N5            &kp N6       &kp N7  &kp N8        &kp N9         &kp N0           &kp DE_SQT
 &kp TAB         &kp Q        &kp W   &kp E      &kp R      &kp T             &kp DE_Z     &kp U   &kp I         &kp O          &kp P            &kp DE_U_UMLAUT
 &kp DELETE      &none        &none   &none      &none      &kp G             &kp H        &none   &none         &none          &none            &kp DE_A_UMLAUT
-&kp LEFT_SHIFT  &lt 11 DE_Y  &kp X   &kp C      &kp V      &kp B             &kp N        &kp M   &kp DE_COMMA  &kp DE_PERIOD  &lt 11 DE_MINUS  &kp RSHIFT
-                                     &lt 6 TAB  &none      &lt 7 LEFT_GUI    &lt 6 ENTER  &none
-                                                &mkp RCLK  &mkp LCLK         &mo 7
+&kp LEFT_SHIFT  &lt 12 DE_Y  &kp X   &kp C      &kp V      &kp B             &kp N        &kp M   &kp DE_COMMA  &kp DE_PERIOD  &lt 12 DE_MINUS  &kp RSHIFT
+                                     &lt 7 TAB  &none      &lt 8 LEFT_GUI    &lt 7 ENTER  &none
+                                                &mkp RCLK  &mkp LCLK         &mo 8
             >;
         };
 
@@ -188,12 +199,12 @@
         default_game_layer {
             label = "GAME";
             bindings = <
-&kp ESCAPE  &kp DE_SECTION  &kp N1  &kp N2     &kp N3     &none              &kp N6       &kp N7         &kp N8  &kp N9  &kp N0           &kp DE_SQT
-&kp T       &kp TAB         &kp Q   &kp W      &kp E      &none              &kp DE_Z     &kp U          &kp I   &kp O   &kp P            &kp DE_U_UMLAUT
-&kp G       &kp LEFT_SHIFT  &kp A   &kp S      &kp D      &none              &kp H        &none          &none   &none   &none            &kp DE_A_UMLAUT
-&kp B       &none           &none   &none      &none      &none              &kp N        &none          &none   &none   &lt 11 DE_MINUS  &none
-                                    &lt 9 TAB  &kp SPACE  &lt 10 LEFT_GUI    &lt 9 ENTER  &kp BACKSPACE
-                                               &mkp RCLK  &mkp LCLK          &mo 10
+&kp ESCAPE  &kp DE_SECTION  &kp N1  &kp N2      &kp N3     &none              &kp N6        &kp N7         &kp N8  &kp N9  &kp N0           &kp DE_SQT
+&kp T       &kp TAB         &kp Q   &kp W       &kp E      &none              &kp DE_Z      &kp U          &kp I   &kp O   &kp P            &kp DE_U_UMLAUT
+&kp G       &kp LEFT_SHIFT  &kp A   &kp S       &kp D      &none              &kp H         &none          &none   &none   &none            &kp DE_A_UMLAUT
+&kp B       &none           &none   &none       &none      &none              &kp N         &none          &none   &none   &lt 12 DE_MINUS  &none
+                                    &lt 10 TAB  &kp SPACE  &lt 11 LEFT_GUI    &lt 10 ENTER  &kp BACKSPACE
+                                                &mkp RCLK  &mkp LCLK          &mo 11
             >;
         };
 

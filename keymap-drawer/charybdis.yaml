@@ -49,13 +49,13 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
   - /
   - ENTER
-  - LALT
-  - {t: SPACE, h: '1'}
   - L CLK
+  - R CLK
+  - LEFT ALT
   - BSPC
   - SPACE
+  - {t: SPACE, h: '1'}
   - {t: SPACE, h: '2'}
-  - R CLK
   - ENTER
   '1':
   - {t: ▽, type: trans}
@@ -84,9 +84,9 @@ layers:
   - '&'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
   - '!'
   - Sft+ _
   - LEFT
@@ -97,8 +97,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&msc SCRL_DOWN'
+  - LEFT WIN
   - Sft+ ?
   - Sft+ "
   - '['
@@ -107,11 +107,11 @@ layers:
   - ''''
   - '`'
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
@@ -168,7 +168,64 @@ layers:
   - {t: ▽, type: trans}
   - SPACE
   - '0'
+  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  scroll:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUMBERS:
@@ -323,7 +380,7 @@ layers:
   - ''
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
   - LEFT SHIFT
-  - '&lt 11 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Z))'
+  - '&lt 12 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Z))'
   - X
   - C
   - V
@@ -332,7 +389,7 @@ layers:
   - M
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
-  - '&lt 11 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
+  - '&lt 12 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
   - RSHIFT
   - {t: TAB, h: MAC-NUM}
   - ''
@@ -503,7 +560,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&lt 11 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
+  - '&lt 12 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
   - ''
   - {t: TAB, h: GAME-NUM}
   - SPACE
