@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - BACK SPACE
   - TAB
   - Q
   - W
@@ -35,7 +35,7 @@ layers:
   - J
   - K
   - L
-  - ''
+  - RIGHT ALT
   - RIGHT SHIFT
   - LEFT CONTROL
   - Z
@@ -48,14 +48,14 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
   - /
-  - ENTER
+  - ESCAPE
+  - '2'
+  - LCTRL
   - L CLK
-  - R CLK
-  - LEFT ALT
   - BSPC
   - SPACE
   - {t: SPACE, h: '1'}
-  - {t: SPACE, h: '2'}
+  - R CLK
   - ENTER
   '1':
   - {t: ▽, type: trans}
@@ -163,13 +163,13 @@ layers:
   - '3'
   - .
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
   - '0'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   scroll:
   - {t: ▽, type: trans}

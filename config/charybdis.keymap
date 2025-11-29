@@ -90,12 +90,12 @@
 
         default_win_layer {
             bindings = <
-&kp LALT          &kp N1  &kp N2  &kp N3     &kp N4       &kp N5          &kp N6     &kp N7     &kp N8        &kp N9         &kp N0    &trans
-&kp TAB           &kp Q   &kp W   &kp E      &kp R        &kp T           &kp Y      &kp U      &kp I         &kp O          &kp P     &trans
-&kp LEFT_SHIFT    &kp A   &kp S   &kp D      &kp F        &kp G           &kp H      &kp J      &kp K         &kp L          &none     &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp Z   &kp X   &kp C      &kp V        &kp B           &kp N      &kp M      &kp DE_COMMA  &kp DE_PERIOD  &kp FSLH  &kp ENTER
-                                  &mkp LCLK  &mkp RCLK    &kp LEFT_ALT    &kp BSPC   &kp SPACE
-                                             &lt 1 SPACE  &lt 2 SPACE     &kp ENTER
+&kp LALT          &kp N1  &kp N2  &kp N3  &kp N4       &kp N5       &kp N6     &kp N7     &kp N8        &kp N9         &kp N0         &kp BACKSPACE
+&kp TAB           &kp Q   &kp W   &kp E   &kp R        &kp T        &kp Y      &kp U      &kp I         &kp O          &kp P          &trans
+&kp LEFT_SHIFT    &kp A   &kp S   &kp D   &kp F        &kp G        &kp H      &kp J      &kp K         &kp L          &kp RIGHT_ALT  &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C   &kp V        &kp B        &kp N      &kp M      &kp DE_COMMA  &kp DE_PERIOD  &kp FSLH       &kp ESCAPE
+                                  &mo 2   &kp LCTRL    &mkp LCLK    &kp BSPC   &kp SPACE
+                                          &lt 1 SPACE  &mkp RCLK    &kp ENTER
             >;
 
             label = "QUERTZ";
