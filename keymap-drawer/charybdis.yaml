@@ -49,12 +49,12 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
   - /
   - ESCAPE
-  - '1'
+  - {t: BACK SPACE, h: '1'}
   - LCTRL
   - L CLK
   - BACK SPACE
   - SPACE
-  - {t: BACK SPACE, h: '2'}
+  - {t: DELETE, h: '2'}
   - R CLK
   - ENTER
   '1':
