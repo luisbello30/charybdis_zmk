@@ -54,7 +54,7 @@ layers:
   - L CLK
   - BACK SPACE
   - SPACE
-  - {t: SPACE, h: scoll}
+  - {t: BACK SPACE, h: '2'}
   - R CLK
   - ENTER
   '1':
@@ -168,7 +168,7 @@ layers:
   - {t: ▽, type: trans}
   - SPACE
   - '0'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   scoll:
@@ -216,8 +216,8 @@ layers:
   - {t: ▽, type: trans}
   - '&u01_lacaixa'
   - L CLK
-  - R CLK
   - {t: ▽, type: trans}
+  - R CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
