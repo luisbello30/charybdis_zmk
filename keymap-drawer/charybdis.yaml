@@ -50,12 +50,12 @@ layers:
   - /
   - ESCAPE
   - {t: BACK SPACE, h: '1'}
-  - LCTRL
+  - LEFT CONTROL
   - L CLK
   - BACK SPACE
   - SPACE
   - {t: DELETE, h: '2'}
-  - R CLK
+  - {t: BACK SPACE, h: RIGHT ALT}
   - ENTER
   '1':
   - {t: ▽, type: trans}
@@ -226,7 +226,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - R CLK
   - {t: ▽, type: trans}
   NUMBERS:
   - {t: ▽, type: trans}
