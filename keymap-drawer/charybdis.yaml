@@ -204,8 +204,8 @@ layers:
   - {t: ▽, type: trans}
   - '&u01'
   - AGr+ LEFT
-  - AGr+ RIGHT
   - {t: ▽, type: trans}
+  - AGr+ RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}

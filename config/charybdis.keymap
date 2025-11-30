@@ -155,10 +155,10 @@
 
         scroll {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &nttdata_com  &trans              &trans         &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &ntt          &trans              &trans         &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &u01          &kp RA(LEFT_ARROW)  &kp RA(RIGHT)  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &u01_lacaixa  &mkp LCLK           &mkp RCLK      &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &nttdata_com  &trans              &trans     &trans               &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &ntt          &trans              &trans     &trans               &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &u01          &kp RA(LEFT_ARROW)  &trans     &kp RA(RIGHT_ARROW)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &u01_lacaixa  &mkp LCLK           &mkp RCLK  &trans               &trans  &trans
                         &trans  &trans  &trans    &trans        &trans
                                 &trans  &trans    &trans
             >;
