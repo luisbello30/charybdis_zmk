@@ -35,15 +35,15 @@ layers:
   - J
   - K
   - L
-  - RIGHT ALT
+  - LEFT WIN
   - RIGHT SHIFT
   - {t: ESC, h: scoll}
   - Z
   - X
   - C
   - V
-  - {t: B, h: RIGHT ALT}
-  - {t: N, h: RIGHT ALT}
+  - B
+  - N
   - M
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
@@ -191,9 +191,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&ntt'
+  - BACK
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - FWD
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

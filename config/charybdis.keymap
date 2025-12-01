@@ -120,11 +120,11 @@
 
         default_win_layer {
             bindings = <
-&kp LALT        &kp N1  &kp N2  &kp N3           &kp N4            &kp N5                     &kp N6           &kp N7     &kp N8        &kp N9         &kp N0         &kp BACKSPACE
-&kp TAB         &kp Q   &kp W   &kp E            &kp R             &kp T                      &kp Y            &kp U      &kp I         &kp O          &kp P          &kp DELETE
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D            &kp F             &kp G                      &kp H            &kp J      &kp K         &kp L          &kp RIGHT_ALT  &kp RIGHT_SHIFT
-&lt 3 ESC       &kp Z   &kp X   &kp C            &kp V             &mt RIGHT_ALT B            &mt RIGHT_ALT N  &kp M      &kp DE_COMMA  &kp DE_PERIOD  &kp FSLH       &kp ESCAPE
-                                &lt 1 BACKSPACE  &kp LEFT_CONTROL  &mkp LCLK                  &kp BACKSPACE    &kp SPACE
+&kp LALT        &kp N1  &kp N2  &kp N3           &kp N4            &kp N5                     &kp N6         &kp N7     &kp N8        &kp N9         &kp N0        &kp BACKSPACE
+&kp TAB         &kp Q   &kp W   &kp E            &kp R             &kp T                      &kp Y          &kp U      &kp I         &kp O          &kp P         &kp DELETE
+&kp LEFT_SHIFT  &kp A   &kp S   &kp D            &kp F             &kp G                      &kp H          &kp J      &kp K         &kp L          &kp LEFT_WIN  &kp RIGHT_SHIFT
+&lt 3 ESC       &kp Z   &kp X   &kp C            &kp V             &kp B                      &kp N          &kp M      &kp DE_COMMA  &kp DE_PERIOD  &kp FSLH      &kp ESCAPE
+                                &lt 1 BACKSPACE  &kp LEFT_CONTROL  &mkp LCLK                  &kp BACKSPACE  &kp SPACE
                                                  &lt 2 DELETE      &mt RIGHT_ALT BACKSPACE    &kp ENTER
             >;
 
@@ -156,7 +156,7 @@
         scroll {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans       &nttdata_com  &trans              &trans  &trans               &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &ntt          &trans              &trans  &trans               &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &ntt          &mkp MB4            &trans  &mkp MB5             &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans       &u01          &kp RA(LEFT_ARROW)  &trans  &kp RA(RIGHT_ARROW)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans       &u01_lacaixa  &mkp LCLK           &trans  &mkp RCLK            &trans  &trans
                         &trans  &trans  &trans       &trans        &trans
